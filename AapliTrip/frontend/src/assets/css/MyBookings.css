@@ -1,0 +1,25 @@
+/* MyBookings.css */
+.my-bookings-page {
+  background: #f0f9ff;
+  min-height: 100vh;
+}
+
+.booking-card {
+  border-radius: 16px;
+  border-color: #e2e8f0;
+}
+
+.booking-image {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.status-badge {
+  padding: 0.5rem 1rem;
+}
+
+
+
+

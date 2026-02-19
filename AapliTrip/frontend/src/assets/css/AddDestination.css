@@ -1,0 +1,39 @@
+/* AddDestination.css */
+.add-destination-page {
+  background: #f0f9ff;
+  min-height: 100vh;
+}
+
+.destination-form-card {
+  border-radius: 16px;
+  border-color: #e2e8f0;
+}
+
+.image-preview-container {
+  background: #f0f9ff;
+  border-radius: 12px;
+}
+
+.image-preview {
+  max-height: 150px;
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.image-url-input {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 2px solid #e2e8f0;
+}
+
+.submit-destination-button {
+  border-radius: 8px;
+  background: #0ea5e9;
+  border: none;
+}
+
+
+
+

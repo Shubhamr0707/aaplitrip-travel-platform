@@ -1,0 +1,39 @@
+.about-page {
+  background: #f0f9ff;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.team-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 20px;
+  border: none;
+  overflow: hidden;
+}
+
+.team-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.team-photo img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid transparent;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-clip: padding-box;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+}
+
+.team-card:hover .team-photo img {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(99, 102, 241, 0.4);
+}

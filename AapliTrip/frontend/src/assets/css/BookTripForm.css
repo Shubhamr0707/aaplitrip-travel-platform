@@ -1,0 +1,51 @@
+/* BookTripForm.css */
+.book-trip-page {
+  background: #f0f9ff;
+  min-height: 100vh;
+}
+
+.destination-card {
+  border-radius: 16px;
+  border-color: #e2e8f0;
+}
+
+.destination-image {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.form-card {
+  border-radius: 16px;
+  border-color: #e2e8f0;
+}
+
+.form-control-custom {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #e2e8f0;
+}
+
+.price-comparison-box {
+  background: #f0f9ff;
+  border-radius: 8px;
+}
+
+.submit-button {
+  background: #22c55e;
+  border: none;
+  min-width: 200px;
+  border-radius: 8px;
+}
+
+.budget-input {
+  color: #22c55e;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #e2e8f0;
+}
+
+
+
+
